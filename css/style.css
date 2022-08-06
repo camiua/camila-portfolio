@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 html {
@@ -265,14 +266,11 @@ footer {
         font-size: 25px;
     }
 
-    #projects .cards .card{
-        display: block;
-        width: 90%;
-        position: relative;
-        margin-left: 15px;
-        margin-right: 15px;
+    #projects .cards .card {  
+        display: block;  
+        margin-left: auto;  
+        margin-right: auto; 
     }
-
   }
 
   @media (min-width: 600px){
@@ -294,7 +292,7 @@ footer {
     }
 
   }
-  @media(max-width: 599px) {
+  @media(max-width: 670px) {
     #projects {
         display: flex;
         flex-direction: column;
@@ -307,12 +305,6 @@ footer {
     }
   }
 
-  @media (min-width: 879px) {
-    #projects .cards {
-        grid-template-columns: 1fr 1fr;
-      }
-  }
-  
   @media (min-width: 900px){
     #projects .cards {
       grid-template-columns: 1fr 1fr;
